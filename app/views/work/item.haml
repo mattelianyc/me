@@ -9,9 +9,13 @@
         .col-md-6.col-xs-12{ style: 'padding:0;' }
           .item-description-img
             - if @work_item['images']['gif'].nil?
-              = image_tag ''+@work_item['images']['src']+'', class: 'img-fluid'
+              - if defined? @work_item['videos']['src']
+                = video_tag ''+@work_item['videos']['src']+'', controls: '', class: 'img-fluid'
+              -else
+                = image_tag ''+@work_item['images']['src']+'', class: 'img-fluid'
             - else
               = image_tag ''+@work_item['images']['gif']+'', class: 'img-fluid'
+
         .col-md-6.col-xs-12
           .item-description-text
             .text-xs-left

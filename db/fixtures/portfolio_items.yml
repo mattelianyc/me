@@ -1,4 +1,15 @@
 portfolio_item_01:
+  title: "Homer"
+  permalink: "homer"
+  description: "Real Estate web application built on MySQL, PHP (Laravel) backend. Core frontend logic written in  “vanilla” Javascript, utilizing Google Maps, Places, Directions, and Distance Matrix Service APIs.
+  Algorithm sorts all apartment rental listings on the market displaying each building ordered by approximate annual transit time per year for the User.  26-page Provisional Patent filed by Client/Bryan Cave LLC on behalf of my work.
+  • ‘SYSTEMS AND METHODS FOR SELECTING OPTIMAL PROPERTY LOCATIONS BASED ON LOGISTICAL CONCERNS’
+  • Provisional patent identifier ‘03923358’"
+  images:
+    src: "homer-logo.png"
+    gif: "homer.gif"
+
+portfolio_item_02:
   title: "Raymond James"
   permalink: "raymond-james"
   description: "Built animation-heavy web application for client: financial services firm, RAYMOND JAMES FINANCIAL INC (RJF - NYSE).  Utilized D3js - Data Visualization JS library.  Code Samples upon request"
@@ -6,40 +17,37 @@ portfolio_item_01:
     src: "rj-logo.png"
     gif: "rayj.gif"
 
-portfolio_item_02:
-  title: "Canon"
-  permalink: "canon"
-  description: "built interactive kiosk for the annual Canon Expo at the Javits Center"
-  images:
-    src: "canon-logo.png"
-    gif: "canon-expo-2015.jpg"
-
 portfolio_item_03:
-  title: "Homer"
-  permalink: "homer"
-  description: "Real Estate web application built on MySQL, PHP (Laravel) backend. Core frontend logic written in  “vanilla” Javascript, utilizing Google Maps, Places, Directions, and Distance Matrix Service APIs.
-Algorithm sorts all apartment rental listings on the market displaying each building ordered by approximate annual transit time per year for the User.  26-page Provisional Patent filed by Client/Bryan Cave LLC on behalf of my work.
-  • ‘SYSTEMS AND METHODS FOR SELECTING OPTIMAL PROPERTY LOCATIONS BASED ON LOGISTICAL CONCERNS’
-  • Provisional patent identifier ‘03923358’"
+  title: "Itsu"
+  permalink: "itsu"
+  description: "Built front end for Itsu's main site.  Headless Wordpress CMS integrated into Rails stack"
   images:
-    src: "homer-logo.png"
-    gif: "homer.gif"
-
+    src: "itsu-logo.png"
+  videos:
+    src: "itsu.mp4"
+  
 portfolio_item_04:
-  title: "Douglas Elliman"
-  permalink: "douglas-elliman"
-  description: "bopa"
+  title: "GoreTex"
+  permalink: "goretex"
+  description: "Built animated video wall for GoreTex pitch."
   images:
-    src: "elliman-logo.jpeg"
+    src: "http://www.advertiser.it/wp-content/uploads/2017/11/log_GT_Diamond_en.jpg"
 
 portfolio_item_05:
-  title: "Subaru"
-  permalink: "subaru"
-  description: "frontend / paperless"
+  title: "Chase"
+  permalink: "chase"
+  description: "Built React Native app for Chase Business Mobile team."
   images:
-    src: "subaru-logo.jpg"
+    src: "chase.png"
 
 portfolio_item_06:
+  title: "MLB"
+  permalink: "mlb"
+  description: "in progress"
+  images:
+    src: "mlb.gif"  
+
+portfolio_item_07:
   title: "SolidX"
   permalink: "solidx"
   description: "SolidX (www.sldx.com) - Bitcoin / Blockchain company.  Scroll-Based Animation."
@@ -47,16 +55,18 @@ portfolio_item_06:
     src: "sldx-logo.svg"
     gif: "sldx.gif"
 
-# portfolio_item_05:
-#   title: "LighterJack"
-#   permalink: "lighterjack"
-#   description: "LJ"
-#   images:
-#     src: "lj-logo.png"
-    # portfolio_item_04:
-#   title: "Itsu"
-#   permalink: "itsu"
-#   description: "UK sushi chain"
-#   images:
-#     src: "itsu-logo.png"
-# 
+portfolio_item_08:
+  title: "Canon"
+  permalink: "canon"
+  description: "built interactive kiosk for the annual Canon Expo at the Javits Center"
+  images:
+    src: "canon-logo.png"
+    gif: "canon-expo-2015.jpg"
+
+portfolio_item_09:
+  title: "LighterJack"
+  permalink: "lighterjack"
+  description: "Phonegap|Cordova - Ionic Framework - ng - Bluetooth proximity app"
+  images:
+    src: "lj-logo.png"
+  
