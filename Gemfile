@@ -12,7 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'haml-rails', '~> 0.9.0'
 gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'tether-rails', '~> 1.3.3'
-gem 'rack-cors', '~> 0.4.0'
+gem 'rack-cors', '~> 1.0.5'
 
 gem 'font-awesome-sass', '~> 4.7.0'
 
