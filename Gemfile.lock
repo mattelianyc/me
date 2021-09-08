@@ -41,16 +41,16 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (6.6.1)
       execjs
-    better_errors (2.1.1)
+    better_errors (2.8.0)
       coderay (>= 1.0.0)
-      erubis (>= 2.6.6)
+      erubi (>= 1.0.0)
       rack (>= 0.9.0)
     bootstrap (4.0.0.alpha5)
       autoprefixer-rails (>= 6.0.3)
       sass (>= 3.4.19)
     builder (3.2.2)
     byebug (9.0.6)
-    coderay (1.1.1)
+    coderay (1.1.3)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.2.x)
@@ -60,6 +60,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.4)
     debug_inspector (0.0.2)
+    erubi (1.10.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
@@ -103,7 +104,7 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     puma (3.11.4)
-    rack (2.0.1)
+    rack (2.2.3)
     rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -181,7 +182,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors (~> 2.1, >= 2.1.1)
+  better_errors (~> 2.8)
   bootstrap (~> 4.0.0.alpha5)
   byebug
   coffee-rails (~> 4.2)
@@ -195,7 +196,6 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3
   tether-rails (~> 1.3.3)
   turbolinks (~> 5)
   tzinfo-data
